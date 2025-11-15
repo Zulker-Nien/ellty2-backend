@@ -23,6 +23,7 @@ export class DiscussionNode {
     })
     operation: Operation | null;
 
+    
     @Column('decimal', { precision: 20, scale: 10, nullable: true })
     operand: number | null;
 
